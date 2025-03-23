@@ -1,3 +1,4 @@
+package-lock.json
 
 # Ignore PDF de l'énoncé
 *.pdf
