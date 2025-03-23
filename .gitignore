@@ -1,11 +1,34 @@
-# Ignore npm config.
-/dist
-/node_modules
-/.parcel-cache
-
-.DS_Store
-.tool-versions
-package-lock.json
 
 # Ignore PDF de l'énoncé
 *.pdf
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Modules Node.js
+node_modules
+
+# Dossier de build (Vite)
+dist
+build
+dist-ssr
+
+# Configuration locale et caches
+*.local
+.vite
+.vscode/*
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cache de Netlify (si hébergement sur Netlify)
+.netlify
