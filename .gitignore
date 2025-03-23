@@ -1,0 +1,11 @@
+# Ignore npm config.
+/dist
+/node_modules
+/.parcel-cache
+
+.DS_Store
+.tool-versions
+package-lock.json
+
+# Ignore PDF de l'énoncé
+*.pdf
